@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
+  - Kingfisher (4.10.1)
+  - ObjectMapper (3.5.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - AlamofireNetworkActivityLogger
+  - Kingfisher
+  - ObjectMapper (= 3.5.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - Kingfisher
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+
+PODFILE CHECKSUM: 6254a3173a66ef6c6af9dcc386dbc2e7e5645a12
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'J2TTDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+     pod 'Alamofire', '4.9.1'
+     pod 'AlamofireNetworkActivityLogger'
+     pod 'ObjectMapper', '3.5.1'
+     pod 'Kingfisher'
+
+  target 'J2TTDemoTests' do
+    inherit! :search_paths
+    
+    pod 'Alamofire', '4.9.1'
+    pod 'AlamofireNetworkActivityLogger'
+    pod 'ObjectMapper', '3.5.1'
+    pod 'Kingfisher'
+
+  end
+
+  target 'J2TTDemoUITests' do
+    pod 'Alamofire', '4.9.1'
+    pod 'AlamofireNetworkActivityLogger'
+    pod 'ObjectMapper', '3.5.1'
+   pod 'Kingfisher'
+
+  end
+
+end
